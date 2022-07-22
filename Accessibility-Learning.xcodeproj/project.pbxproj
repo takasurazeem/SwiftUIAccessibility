@@ -14,6 +14,7 @@
 		F9DCC0712881A7490091F1BE /* Accessibility_LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC0702881A7490091F1BE /* Accessibility_LearningTests.swift */; };
 		F9DCC07B2881A7490091F1BE /* Accessibility_LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC07A2881A7490091F1BE /* Accessibility_LearningUITests.swift */; };
 		F9DCC07D2881A7490091F1BE /* Accessibility_LearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC07C2881A7490091F1BE /* Accessibility_LearningUITestsLaunchTests.swift */; };
+		F9DCC08B2881E9D10091F1BE /* IdentifyingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC08A2881E9D10091F1BE /* IdentifyingViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F9DCC0762881A7490091F1BE /* Accessibility-LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Accessibility-LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DCC07A2881A7490091F1BE /* Accessibility_LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_LearningUITests.swift; sourceTree = "<group>"; };
 		F9DCC07C2881A7490091F1BE /* Accessibility_LearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_LearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9DCC08A2881E9D10091F1BE /* IdentifyingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyingViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		F9DCC05E2881A7470091F1BE /* Accessibility-Learning */ = {
 			isa = PBXGroup;
 			children = (
+				F9DCC0892881E9B30091F1BE /* Learning */,
 				F9DCC05F2881A7470091F1BE /* Accessibility_LearningApp.swift */,
 				F9DCC0612881A7470091F1BE /* ContentView.swift */,
 				F9DCC0632881A7490091F1BE /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				F9DCC07C2881A7490091F1BE /* Accessibility_LearningUITestsLaunchTests.swift */,
 			);
 			path = "Accessibility-LearningUITests";
+			sourceTree = "<group>";
+		};
+		F9DCC0892881E9B30091F1BE /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				F9DCC08A2881E9D10091F1BE /* IdentifyingViews.swift */,
+			);
+			path = Learning;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9DCC0622881A7470091F1BE /* ContentView.swift in Sources */,
+				F9DCC08B2881E9D10091F1BE /* IdentifyingViews.swift in Sources */,
 				F9DCC0602881A7470091F1BE /* Accessibility_LearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +429,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Accessibility-Learning/Preview Content\"";
+				DEVELOPMENT_TEAM = E2D87XL9X7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Accessibility-Learning/Preview Content\"";
+				DEVELOPMENT_TEAM = E2D87XL9X7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
